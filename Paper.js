@@ -5,7 +5,7 @@ class Paper{
      this.image = loadImage("paper.png");
      this.x = x;
      this.y = y;
-     this.r = r;
+     this.r = 120;
      World.add(world, this.body);
     }
     display(){
